@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+*{
+	font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+	font-size: 14px;
+}
+
+.navbar-inverse{
+	background-color: #FFF!important;
+	border-bottom: 1px solid #DDD!important;
+	border-color:#DDD!important;
+}
+
+.container{padding-bottom:30px;}
+
+.pageNav{text-align:center;}
+
+a.navbar-brand{color:#FFF!important;}
+a.navbar-brand:hover{color:#FFF!important;}
+.navbar-inverse{
+	background: #3498db!important;
+	border-color: #3498db!important;
+}
+
+a.navbar-brand{font-size:26px;}
+
+/* 상단으로 이동 */
+#Top_go{display:none; position:fixed; bottom:20px; right:20px; width:34px; height:34px; z-index:100;}
+#Top_go a{display:block; width:100%; height:100%; background:rgba(52,152,219,0.4) url(../upload/image/top_btn.png) 50% 50% no-repeat; background-size:16px; border-radius:34px; text-indent:-99999px;}

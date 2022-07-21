@@ -1,0 +1,57 @@
+@charset "UTF-8";
+li{list-style:none;}
+#friendListBTN{
+
+	float: right;
+	margin-right: 30px;
+}
+#friendSuggestionListBTN {
+	float: right;
+	margin-right: 10px;
+	background: #3498DB;
+	color: #FFF;
+	border: none;
+}
+#search_Bar{
+text-align: center;
+
+}
+#send_Btn{
+	display: inline-block;
+	 width: 100%;
+}
+ul{
+   list-style:none;
+   }
+.image_float{
+	float: left;
+	width:80px; 
+	height:80px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.user_Data{
+text-align: left;
+float: left;
+padding: 20px;
+}
+.requestId{
+display: block;
+}
+.user_name{
+display: block;
+}
+
+.dataRow{
+height: 100px;
+}
+.dataRow:hover {
+	/* hover 는 마우스가 올라갔을때만 변한다 */
+	cursor: pointer;
+	background: #eee
+}
+.friend_Btn{
+text-align: right;
+padding: 30px;
+}

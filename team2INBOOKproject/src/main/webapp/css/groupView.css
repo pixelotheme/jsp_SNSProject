@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+ul{padding:0; margin:0;}
+li{list-style:0;}
+
+.dataRow{cursor:pointer;}
+
+
+.groupViewWrap{margin-bottom:30px;}
+.groupViewtWrap:last-child{margin-bottom:0;}
+.listLike{float:left;}
+.listLike img{width:16px; height:16px;}
+.likeText{float:left; margin:0 0 0 6px;}
+
+
+
+#groupViewWrap .userPhoto{display:inline-block; width:100%;}
+#groupViewWrap .userPhoto .img{position:relative; float:left; width:45px; height:45px; border-radius:45px; overflow:hidden; margin:0; border:1px solid #EEE; box-sizing:border-box;}
+#groupViewWrap .userPhoto .img img{position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); max-width:100%;}
+#groupViewWrap .userPhoto .name{float:left; font-weight:bold; height:45px; line-height:45px; padding-left:6px;}
+#groupViewWrap .groupViewImage{width:100%; max-height:400px; text-align:center;}
+#groupViewWrap .groupViewImage p{margin:0; max-height:400px;}
+#groupViewWrap .groupViewImage p img{max-width:100%; max-height:inherit;}
+#groupViewWrap .no{display:none;}
+#groupViewWrap .ListText{
+	max-height:60px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	word-break: break-all;
+}
+#groupViewWrap .hashtag{color:#007de9;}
+#groupViewWrap .boardWriteDate{clear:both; color:#686868; font-size:12px;}
